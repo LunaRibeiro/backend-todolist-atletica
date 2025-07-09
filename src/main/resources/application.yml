@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: todolist-atletica
+
+  datasource:
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: atletica
+      password: porcoloco123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
